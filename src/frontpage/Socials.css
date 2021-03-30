@@ -1,0 +1,6 @@
+.headshot {
+  height: 30vmin;
+  pointer-events: none;
+  border: 5px solid black;
+  border-radius:50%;
+}

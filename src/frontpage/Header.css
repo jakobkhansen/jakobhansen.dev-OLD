@@ -1,0 +1,13 @@
+.Header {
+    color: grey;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}
+
+.Header h1 {
+    margin-bottom: 0
+}
+
+.Header h4 {
+    margin-top: 0
+}
