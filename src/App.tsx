@@ -3,6 +3,7 @@ import FrontPage from 'frontpage/FrontPage'
 import "App.css"
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
 import First from 'paaskejakt/First';
+import Second from 'paaskejakt/Second';
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
             <Switch>
                 <Route path="/påskejakt">
                     <First />
+                </Route>
+                <Route path="/duersøt">
+                    <Second />
                 </Route>
                 <Route path="/">
                     <FrontPage />
