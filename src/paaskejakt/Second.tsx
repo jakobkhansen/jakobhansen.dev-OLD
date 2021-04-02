@@ -6,9 +6,9 @@ dict = ?
 print("Ditt neste hint er ved {} {}, ta en titt {} og sjekk også hva {} har å by på".format(dict["du"], dict["og"], dict["jag"], dict["kjære"]))`
     return (
         <div>
+        <p style={{ textAlign: "left", color: "white" }}>https://discord.gg/tMy82bmQnE</p>
             <div style={{ textAlign: "center", fontSize: 20 }}>
                 <h1>Bra jobba! Til og med skrekkfilm monstre kan være hjelpsomme 🤡</h1>
-                <p style={{ opacity: 0 }}>enra#8808</p>
                 <h2>Klar for en programmeringsgåte? her kommer d...</h2>
 
                 <h2>

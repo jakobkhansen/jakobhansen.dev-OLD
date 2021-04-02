@@ -4,6 +4,7 @@ import "App.css"
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import First from 'paaskejakt/First';
 import Second from 'paaskejakt/Second';
+import Third from 'paaskejakt/Third'
 
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
                 </Route>
                 <Route path="/duersøt">
                     <Second />
+                </Route>
+                <Route path="/sistenå">
+                    <Third />
                 </Route>
                 <Route path="/">
                     <FrontPage />
