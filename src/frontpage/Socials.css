@@ -1,6 +1,19 @@
 .headshot {
-  height: 30vmin;
   pointer-events: none;
   border: 5px solid black;
   border-radius:50%;
+  display:inline-block;
+}
+
+.socialsContainer {
+}
+
+.socials {
+    display:inline-block;
+    vertical-align:top;
+    margin-top:1%;
+}
+
+.socialIcon {
+    margin-right:10px;
 }
