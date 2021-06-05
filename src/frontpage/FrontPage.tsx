@@ -1,4 +1,3 @@
-import React from 'react';
 import 'frontpage/FrontPage.css';
 import Header from 'frontpage/Header';
 import Socials from './Socials';

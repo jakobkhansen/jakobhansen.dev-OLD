@@ -2,16 +2,24 @@
   pointer-events: none;
   border: 5px solid black;
   border-radius:50%;
-  display:inline-block;
+  margin:auto;
 }
 
 .socialsContainer {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    width:50%;
+    margin:auto;
 }
 
+
 .socials {
-    display:inline-block;
-    vertical-align:top;
-    margin-top:1%;
+    margin-top:-10px;
+    height:100%;
+    /*margin-top:auto;*/
+    /*margin-bottom:auto;*/
+    margin:auto;
 }
 
 .socialIcon {
