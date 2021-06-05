@@ -1,3 +1,17 @@
+# jakobhansen.dev
+
+This is a very simple personal website, pointing to my socials
+
+### Plans
+* [x] Socials
+* [ ] Navigation / header
+* [ ] Project list / resume
+* [ ] Interactive projects (like qlearning-tictactoe)
+
+### Technologies
+* TypeScript
+* React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
