@@ -1,40 +1,36 @@
-import React, { Component } from 'react'
-import { withRouter } from 'react-router'
-import { Menu } from 'semantic-ui-react'
-
+import React, { Component } from "react";
+import { withRouter } from "react-router";
+import { Menu } from "semantic-ui-react";
 
 class NavBar extends Component<any> {
-  state = { activeItem: '/home' }
-
-  handleItemClick = (e : any, { name } : any) => {
-      this.setState({ activeItem: name })
-      this.props.history.push(name)
-  }
+  handleItemClick = (e: any, { name }: any) => {
+    this.props.history.push(name);
+  };
 
   render() {
-    const  activeItem = this.props.history.location.pathname
+    const activeItem = this.props.history.location.pathname;
 
     return (
       <div>
         <Menu pointing secondary>
           <Menu.Item
-            name='/home'
-            active={activeItem === '/home'}
+            name="/home"
+            active={activeItem === "/home" || activeItem === "/"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
-            name='/projects'
-            active={activeItem === '/projects'}
+            name="/projects"
+            active={activeItem === "/projects"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
-            name='/resume'
-            active={activeItem === '/resume'}
+            name="/resume"
+            active={activeItem === "/resume"}
             onClick={this.handleItemClick}
           />
         </Menu>
       </div>
-    )
+    );
   }
 }
-export default withRouter(NavBar)
+export default withRouter(NavBar);
