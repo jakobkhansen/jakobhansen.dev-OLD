@@ -1,5 +1,5 @@
 function ProjectsPage() {
-    return null
+    return <div>Projects</div>
 }
 
 export default ProjectsPage
