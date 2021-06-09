@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Experience",
+        "projects": [
+            {
+                "name": "Bekk",
+                "image": "bekk.png",
+                "description": "Bekk summer internship, to be completed!"
+            },
+            {
+                "name": "Qtime",
+                "image": "qtime.png",
+                "description": "Customer service, testing and backend developer"
+            }
+        ]
+    },
+
+    {
+        "name": "University projects",
+        "projects": [
+            {
+                "name": "IN2000"
+            }
+        ]
+    },
+
+    {
+        "name": "Personal projects",
+        "projects": [
+            {
+                "name": "Qlearning-tictactoe"
+            }
+        ]
+    }
+]
