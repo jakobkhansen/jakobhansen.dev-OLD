@@ -5,6 +5,7 @@ import NavBar from "globals/NavBar";
 import "semantic-ui-css/semantic.min.css";
 import ProjectsPage from "projects/ProjectsPage";
 import { Component } from "react";
+import ResumePage from "resume/ResumePage"
 
 class App extends Component {
   render() {
@@ -14,6 +15,9 @@ class App extends Component {
         <Switch>
           <Route path="/projects">
             <ProjectsPage />
+          </Route>
+          <Route path="/resume">
+            <ResumePage />
           </Route>
           <Route path="/">
             <FrontPage />
