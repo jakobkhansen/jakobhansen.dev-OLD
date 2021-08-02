@@ -1,18 +1,19 @@
 import { Component } from "react";
 import { Menu } from "semantic-ui-react";
+import { Project, ProjectCategory } from "./ProjectsPage";
+
 
 type ProjectNavProps = { projects: ProjectCategory[] }
 
-type ProjectCategory = { name: string, projects: Project[] }
-type Project = { name: string, image: string, description: string }
 
-export default class ProjectNav extends Component<any, {}> {
+export default class ProjectNav extends Component<ProjectNavProps, {}> {
     state = { activeItem: undefined }
-    handleItemClick = (e: any, { name }: any) => this.setState({ activeItem: name })
+    handleItemClick = (e: any, { name }: any) => {
+        this.setState({ activeItem: name })
+        // Handle clicks here
+    }
 
     render() {
-        const { activeItem } = this.state
-
         let buffer = []
 
         for (const category of this.props.projects) {
@@ -20,7 +21,7 @@ export default class ProjectNav extends Component<any, {}> {
         }
 
         return (
-            <Menu vertical>
+            <Menu vertical style={{"width":"100%"}}>
                 {buffer}
             </Menu>
         )

@@ -19,7 +19,9 @@
         "name": "University projects",
         "projects": [
             {
-                "name": "IN2000"
+                "name": "IN2000",
+                "image": "eventur.png",
+                "description": "Eventur IN2000 project"
             }
         ]
     },
@@ -28,7 +30,9 @@
         "name": "Personal projects",
         "projects": [
             {
-                "name": "Qlearning-tictactoe"
+                "name": "Qlearning-tictactoe",
+                "image": "qlearning.png",
+                "description": "Qlearning tic-tac-toe"
             }
         ]
     }

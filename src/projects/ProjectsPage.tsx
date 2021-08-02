@@ -1,22 +1,23 @@
 import ProjectNav from "projects/ProjectNav"
-import raw from "resources/projects.json"
+import projects from "resources/projects.json"
 import ProjectList from "./ProjectList"
+import "projects/ProjectsPage.css";
 
-type ProjectCategory = { name: string, projects: Project[] }
-type Project = { name: string, image: string, description: string }
+export type ProjectCategory = { name: string, projects: Project[] }
+export type Project = { name: string, image: string, description: string }
 
 function ProjectsPage() {
     let projects = getProjects()
     return (
-        <div>
+        <div className="ProjectsPage">
             <ProjectNav projects={projects}/>
-            <ProjectList />
+            <ProjectList projects={projects} />
         </div>
     )
 }
 
-function getProjects() {
-    return raw
+function getProjects() : ProjectCategory[] {
+    return projects
 }
 
 export default ProjectsPage;

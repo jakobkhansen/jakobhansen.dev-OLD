@@ -7,21 +7,21 @@ import ProjectsPage from "projects/ProjectsPage";
 import { Component } from "react";
 
 class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <NavBar />
-        <Switch>
-          <Route path="/projects">
-            <ProjectsPage />
-          </Route>
-          <Route path="/">
-            <FrontPage />
-          </Route>
-        </Switch>
-      </BrowserRouter>
-    );
-  }
+    render() {
+        return (
+            <BrowserRouter>
+                <NavBar />
+                <Switch>
+                    <Route path="/projects">
+                        <ProjectsPage />
+                    </Route>
+                    <Route path="/">
+                        <FrontPage />
+                    </Route>
+                </Switch>
+            </BrowserRouter>
+        );
+    }
 }
 
 export default App;
