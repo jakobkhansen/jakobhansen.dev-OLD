@@ -5,34 +5,54 @@
             {
                 "name": "Bekk",
                 "image": "bekk.jpeg",
-                "description": "Bekk summer internship, to be completed!"
+                "description": "The summer of 2021 I had an internship with Bekk Consulting. At Bekk I got to work as a consultant for Wenn, an AI startup with many AI projects related to car insurance. At Wenn I worked as a data scientist, providing Wenn with insight for improving their models. I also attended many courses and events with Bekk where I learned a lot about the life of an IT-consultant. Concepts such as agile, customer-relations and teamworks were central in this internship.",
+                "time": "June 2021 - August 2021",
+                "link": ""
+            },
+            {
+                "name": "Teaching assistant at UiO",
+                "image": "uio.png",
+                "description": "At the University of Oslo I have worked as a teaching assistant for multiple semesters. I have tutored mainly the course \"IN2010 - Algorithms and datastructures\", but have also worked on the course \"IN1010 - object-oriented programming\". The job consists mainly of running group sessions, helping students outside of lectures and correcting assignments. After my first semester tutoring IN2010, I received a TA's prize for \"Most dedicated TA\".",
+                "time": "Since August 2020",
+                "link":""
             },
             {
                 "name": "Qtime",
                 "image": "qtime.png",
-                "description": "Customer service, testing and backend developer"
+                "description": "Qtime is a startup that provides queue-software for stores like pharmacies. While I worked there I did mainly testing and customer service, as I did not have much software engineering experience yet. This also involved on-site support, fixing and setting up the Raspberry Pi's which were running in the stores. I also did some scripting for the Raspberry Pi's and some backend programming in Java/Spring Boot on a rewrite of the backend for the queue-software.",
+                "time": "February 2019 - November 2019",
+                "link":""
             }
         ]
     },
-
     {
         "name": "University projects",
         "projects": [
             {
                 "name": "IN2000",
                 "image": "eventur.png",
-                "description": "Eventur IN2000 project"
+                "description": "IN2000 at UiO is a big course where students work in teams (programmers, designers, BMC) to develop an Android app. Our app, Eventur was an app designed to be a hike-planner, an app where one could go to plan hikes, see statistics like weather and length, and invite other users to join their hike. The app was programmed in Kotlin and used libraries like Jetpack and Retrofit. We also used many Google Firebase services, like FireStore, Authentication and Cloud Storage. My team ended up winning the \"Best app\" award.",
+                "time": "January 2020 - June 2020",
+                "link":""
             }
         ]
     },
-
     {
         "name": "Personal projects",
         "projects": [
             {
                 "name": "Qlearning-tictactoe",
                 "image": "qlearning.png",
-                "description": "Qlearning tic-tac-toe"
+                "description": "This Python script is an AI that teaches itself to play Tic-Tac-Toe by utilizing Q-learning, and playing against itself. The AI plays very well at default settings, give it a go! I did this project as a preparation for an exam in an introductory AI course.",
+                "time": "May 2021",
+                "link": "https://github.com/jakobkhansen/qlearning-tictactoe"
+            },
+            {
+                "name": "jakobhansen.dev",
+                "image": "headshot.png",
+                "description": "The page you are on right now! This website was created in React+TypeScript and uses Semantic UI React for a lot of the UI elements. This is my first project in React.",
+                "time": "Since March 2021",
+                "link":"https://jakobhansen.dev"
             }
         ]
     }

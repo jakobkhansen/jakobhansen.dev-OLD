@@ -1,6 +1,15 @@
 .ProjectsPage {
+    width: 100%;
 }
 
-.test {
-    width: 100%;
+.ProjectBox {
+}
+
+.ProjectGroup {
+
+    width:75%;
+}
+
+.ProjectGrid {
+    margin-top: 10px;
 }
