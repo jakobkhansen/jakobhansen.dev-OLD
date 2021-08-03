@@ -5,21 +5,21 @@
             {
                 "name": "Bekk",
                 "image": "bekk.png",
-                "description": "The summer of 2021 I had an internship with Bekk Consulting. At Bekk I got to work as a consultant for Wenn, an AI startup with many AI projects related to car insurance. At Wenn I worked as a data scientist, providing Wenn with insight for improving their models. I also attended many courses and events with Bekk where I learned a lot about the life of an IT-consultant. Concepts such as agile, customer-relations and teamworks were central in this internship.",
+                "description": "The summer of 2021 I had an internship at Bekk Consulting. At Bekk I got to work as a consultant for Wenn, an AI startup with many AI projects related to car insurance. At Wenn I worked as a data scientist, providing Wenn with insight for improving their models. I also attended many courses and events with Bekk where I learned a lot about the life of an IT-consultant. Concepts such as agile, customer-relations and teamwork were central in this internship.",
                 "time": "June 2021 - August 2021",
                 "link": ""
             },
             {
                 "name": "Teaching assistant at UiO",
                 "image": "uio.png",
-                "description": "At the University of Oslo I have worked as a teaching assistant for multiple semesters. I have tutored mainly the course \"IN2010 - Algorithms and datastructures\", but have also worked on the course \"IN1010 - object-oriented programming\". The job consists mainly of running group sessions, helping students outside of lectures and correcting assignments. After my first semester tutoring IN2010, I received a TA's prize for \"Most dedicated TA\".",
+                "description": "At the University of Oslo I have worked as a teaching assistant for multiple semesters. I have tutored mainly the course \"IN2010 - Algorithms and data structures\", but have also worked on the course \"IN1010 - object-oriented programming\". The job consists mainly of running group sessions, helping students outside of lectures and correcting assignments. After my first semester tutoring IN2010, I received a TA's prize for \"Most dedicated TA\".",
                 "time": "Since August 2020",
                 "link":""
             },
             {
                 "name": "Qtime",
                 "image": "qtime.png",
-                "description": "Qtime is a startup that provides queue-software for stores like pharmacies. While I worked there I did mainly testing and customer service, as I did not have much software engineering experience yet. This also involved on-site support, fixing and setting up the Raspberry Pi's which were running in the stores. I also did some scripting for the Raspberry Pi's and some backend programming in Java/Spring Boot on a rewrite of the backend for the queue-software.",
+                "description": "Qtime is a startup that provides queue-software for pharmacies and other stores. While I worked there I mainly did testing and customer service, as I did not have much software engineering experience yet. This also involved on-site support, fixing and setting up the Raspberry Pi's which were running in the stores. I also did some scripting for the Raspberry Pi's and some backend programming in Java/Spring Boot on a rewrite of the backend for the queue-software.",
                 "time": "February 2019 - November 2019",
                 "link":""
             }
@@ -50,7 +50,7 @@
             {
                 "name": "jakobhansen.dev",
                 "image": "headshot_circular.png",
-                "description": "The page you are on right now! This website was created in React+TypeScript and uses Semantic UI React for a lot of the UI elements. This is my first project in React. This project made me realise that working as a Front-end developer could be fun!",
+                "description": "The page you are on right now! This website was created in React+TypeScript and uses Semantic UI React for many of the UI elements. This is my first project in React. This project made me realise that working as a front-end developer could be fun!",
                 "time": "Since March 2021",
                 "link":"https://jakobhansen.dev"
             }
