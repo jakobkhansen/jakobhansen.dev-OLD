@@ -1,4 +1,4 @@
 export default function ResumePage() {
 
-    return <div>Resume!</div>
+    return <div>Resume coming soon!</div>
 }

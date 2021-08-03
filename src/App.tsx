@@ -16,6 +16,9 @@ class App extends Component {
                     <Route path="/projects">
                         <ProjectsPage />
                     </Route>
+                    <Route path="/resume">
+                        <ResumePage />
+                    </Route>
                     <Route path="/">
                         <FrontPage />
                     </Route>
