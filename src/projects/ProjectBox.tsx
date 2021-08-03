@@ -14,11 +14,11 @@ export default function ProjectBox(props: ProjectBoxProps): JSX.Element {
 
     let inner = (
         <>
-            <Item.Image size='small' bordered circular src={image} />
+            <Item.Image size='small' bordered src={image} />
 
             <Item.Content verticalAlign="bottom">
                 <Item.Header>{project.name}</Item.Header>
-                <Item.Description>{project.description}</Item.Description>
+                <Item.Description style={{textAlign:"left", fontSize:"calc(10px + 1vmin)"}}>{project.description}</Item.Description>
                 <Item.Extra>{project.time}</Item.Extra>
             </Item.Content>
         </>
