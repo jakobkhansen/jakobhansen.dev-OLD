@@ -3,8 +3,8 @@ import { withRouter } from "react-router";
 import { Menu } from "semantic-ui-react";
 
 class NavBar extends Component<any> {
-  handleItemClick = (e: any, { name }: any) => {
-    this.props.history.push(name);
+  handleItemClick = (e: any, { path }: any) => {
+    this.props.history.push(path);
   };
 
   render() {
@@ -14,17 +14,26 @@ class NavBar extends Component<any> {
       <div>
         <Menu pointing secondary>
           <Menu.Item
-            name="/home"
+            name="Home"
+            path="/home"
             active={activeItem === "/home" || activeItem === "/"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
-            name="/projects"
+            name="About Me"
+            path="/aboutme"
+            active={activeItem === "/aboutme"}
+            onClick={this.handleItemClick}
+          />
+          <Menu.Item
+            name="Projects"
+            path="/projects"
             active={activeItem === "/projects"}
             onClick={this.handleItemClick}
           />
           <Menu.Item
-            name="/resume"
+            name="Resume"
+            path="/resume"
             active={activeItem === "/resume"}
             onClick={this.handleItemClick}
           />

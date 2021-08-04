@@ -1,4 +1,5 @@
 import FrontPage from "frontpage/FrontPage";
+import AboutMe from "aboutme/AboutMe";
 import "App.css";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NavBar from "globals/NavBar";
@@ -13,6 +14,9 @@ class App extends Component {
             <BrowserRouter>
                 <NavBar />
                 <Switch>
+                    <Route path="/aboutme">
+                        <AboutMe />
+                    </Route>
                     <Route path="/projects">
                         <ProjectsPage />
                     </Route>

@@ -1,5 +1,6 @@
 import "frontpage/FrontPage.css";
 import Header from "frontpage/Header";
+import LinkCards from "./LinkCards";
 import Socials from "./Socials";
 
 function FrontPage() {
@@ -7,6 +8,7 @@ function FrontPage() {
     <div className="FrontPage">
       <Header />
       <Socials />
+      <LinkCards />
     </div>
   );
 }
