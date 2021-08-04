@@ -1,3 +1,3 @@
-export default function AboutMe(props) {
+export default function AboutMe(props : {}) {
     return <>Coming Soon!</>
 }
