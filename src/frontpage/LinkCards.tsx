@@ -7,7 +7,7 @@ function LinkCards(props: any) {
         <Grid centered style={{ marginTop: "50px" }}>
             <Card.Group centered>
                 <LinkCard title="About Me" description="Click to learn more about me" link="/aboutme" image="handwave.png" history={props.history} />
-                <LinkCard title="Projects and experience" description="Click to see my relevant experience and projects" link="/projects" image="placeholder.png" history={props.history} />
+                <LinkCard title="Projects and experience" description="Click to see my relevant experience and projects" link="/projects" image="hackerguy.webp" history={props.history} />
                 <LinkCard title="Resume" description="Click to see my resume" link="/resume" image="resume.jpg" history={props.history} />
             </Card.Group>
         </Grid>
