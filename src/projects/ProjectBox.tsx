@@ -1,35 +1,39 @@
-import { Project } from "./ProjectsPage"
-import { Item, Image, Grid, Segment } from "semantic-ui-react"
+import { Project } from "./ProjectsPage";
+import { Item, Image, Grid, Segment } from "semantic-ui-react";
 
-
-
-type ProjectBoxProps = { project: Project }
+type ProjectBoxProps = { project: Project };
 
 export default function ProjectBox(props: ProjectBoxProps): JSX.Element {
+  let project = props.project;
 
-    let project = props.project
+  let image = require(`resources/${project.image}`).default;
 
-    let image = require(`resources/${project.image}`).default
+  let inner = (
+    <>
+      <Item.Image size="small" verticalAlign="middle" ui centered src={image} />
 
+      <Item.Content verticalAlign="middle">
+        <Item.Header>{project.name}</Item.Header>
+        <Item.Description
+          style={{ textAlign: "left", fontSize: "calc(10px + 1vmin)" }}
+        >
+          {project.description}
+        </Item.Description>
+        <Item.Extra>{project.time}</Item.Extra>
+      </Item.Content>
+    </>
+  );
 
-    let inner = (
-        <>
-            <Item.Image size='small' bordered src={image} />
+  let surrounding = <Item className="ProjectBox">{inner}</Item>;
 
-            <Item.Content verticalAlign="bottom">
-                <Item.Header>{project.name}</Item.Header>
-                <Item.Description style={{textAlign:"left", fontSize:"calc(10px + 1vmin)"}}>{project.description}</Item.Description>
-                <Item.Extra>{project.time}</Item.Extra>
-            </Item.Content>
-        </>
-    )
+  // Check if this project should be clickable
+  if (project.link != "") {
+    surrounding = (
+      <Item className="ProjectBox" as="a" href={project.link}>
+        {inner}
+      </Item>
+    );
+  }
 
-    let surrounding = (<Item className="ProjectBox">{inner}</Item>)
-
-    // Check if this project should be clickable
-    if (project.link != "") {
-        surrounding = (<Item className="ProjectBox" as='a' href={project.link}>{inner}</Item>)
-    }
-
-    return surrounding
+  return surrounding;
 }
