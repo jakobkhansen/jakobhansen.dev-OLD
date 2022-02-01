@@ -58,6 +58,7 @@
         "name": "Pomodoro Together",
         "image": "pomodorotogether.jpg",
         "description": "A Social Pomodoro App. Create pomodoro sessions and let friends join your session to use as a synchronized work timer. Minimalistic and customizable. WIP.",
+        "time": "Since December 2021",
         "link": "https://github.com/jakobkhansen/PomodoroTogetherMobile"
       },
       {
