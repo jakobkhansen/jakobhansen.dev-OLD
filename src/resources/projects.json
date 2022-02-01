@@ -55,6 +55,12 @@
         "link": "https://github.com/jakobkhansen/qlearning-tictactoe"
       },
       {
+        "name": "Pomodoro Together",
+        "image": "pomodorotogether.jpg",
+        "description": "A Social Pomodoro App. Create pomodoro sessions and let friends join your session to use as a synchronized work timer. Minimalistic and customizable. WIP.",
+        "link": "https://github.com/jakobkhansen/PomodoroTogetherMobile"
+      },
+      {
         "name": "jakobhansen.dev",
         "image": "headshot_circular.png",
         "description": "The page you are on right now! This website was created in React+TypeScript and uses Semantic UI React for many of the UI elements. This is my first project in React. This project made me realise that working as a front-end developer could be fun!",
